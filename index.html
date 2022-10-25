@@ -483,7 +483,7 @@
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <!-- form**************************** -->
         <form>
-          <label> <span class="modal-label-text">Ім'я</span> 
+          <label class="form-label"> <span class="modal-label-text">Ім'я</span> 
             <span class="input-wrap">
             <input type="text" name="user-name" id="" class="modal-input"
           />
@@ -491,30 +491,30 @@
             <use href="./images/icons.svg#icon-personn"></use>
           </svg></span> 
       </label>
-          <label> <span class="modal-label-text">Телефон</span>
+          <label class="form-label"> <span class="modal-label-text">Телефон</span>
           <span class="input-wrap">
           <input type="text" name="user-tel" id="" class="modal-input"
           />  
           <svg class="modal-input-icon" width="18" height="18">
             <use href="./images/icons.svg#icon-phone-black"></use>
           </svg></span></label>
-          <label> 
+          <label class="form-label"> 
             <span class="modal-label-text"> Пошта </span> 
             <span class="input-wrap">
-            <input type="text" name="user-email" id="" class="modal-input"
+            <input type="email" name="user-email" id="" class="modal-input"
           />
             <svg class="modal-input-icon" width="18" height="18">
             <use href="./images/icons.svg#icon-email-black"></use>
           </svg>
           </span></label>
           <!-- comment -->
-          <label> <span class="modal-label-text">Коментар</span>
+          <label class="form-texrarea-label"> <span class="modal-label-text">Коментар</span>
             <span class="input-wrap">
             <textarea name="user-text" id="" class="modal-textarea"
             placeholder="Введіть текст"></textarea></span>
             </label>
             <!-- checkbox -->
-            <div>
+            <div class="checkbox-wrap-privacy">
                 <input 
                 type="checkbox" 
                 name="privacy"  class="input-checkbox visually-hidden" 
@@ -526,7 +526,7 @@
             <use href="./images/icons.svg#icon-vector"></use>
           </svg>
                 </span> Погоджуюся з розсилкою та приймаю
-                <a href="" class="check-box-link">Умови договору</a> 
+                <a href="" class="check-box-link" >Умови договору</a> 
               </label>
               </div>
             <!-- button -->
