@@ -744,7 +744,8 @@ color: rgba(255, 255, 255, 0.6);
 
 .modal-title{
 font-weight: 700;
-line-height: calc(23/20);
+font-size: 20px;
+line-height: calc(23 / 20);
 text-align: center;
 color: var(--second-color);
 margin-bottom: 12px;
@@ -834,7 +835,7 @@ align-items: center;
 }
 .checkbox-wrap-privacy
 {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 
 }
 
